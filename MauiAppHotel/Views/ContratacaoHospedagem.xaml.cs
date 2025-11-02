@@ -45,6 +45,10 @@ public partial class ContratacaoHospedagem : ContentPage
             await DisplayAlert("Ops", ex.Message, "OK");
         }
     }
+    private async void Sobre_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Sobre());
+    }
 
     private void dtpck_checkin_DateSelected(object sender, DateChangedEventArgs e)
     {
