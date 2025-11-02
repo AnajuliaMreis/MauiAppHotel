@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="#4B0082">
+
+    <Grid RowDefinitions="Auto,*" ColumnDefinitions="*">
+        <ScrollView Grid.Row="0" Grid.Column="0"
+                    Padding="10,20">
+            <VerticalStackLayout Spacing="20"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="StartAndExpand">
+
+
+                <Image Source="logo.png"
+                       HeightRequest="200"
+                       WidthRequest="200"
+     
+                       HorizontalOptions="Center"/>
+                
+                
+                <Label Text="Sobre o App"
+                       FontSize="32"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+
+  
+                <Label Text="Desenvolvedor: Empresa Melozz"
+                       FontSize="20"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+                <Label Text="Ano: 2025"
+                       FontSize="20"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+
+                <Frame BackgroundColor="White"
+                       CornerRadius="15"
+                       Padding="15"
+                       HasShadow="True"
+                       HorizontalOptions="FillAndExpand"
+                       Margin="10,0">
+            
+                <Label Text="Bem-vindo ao Aplicativo de Gestão de Hospedagens da Empresa Melozz! Nosso objetivo é oferecer uma solução completa e eficiente para hotéis e pousadas, facilitando a reserva de suítes e o gerenciamento de hóspedes. Este aplicativo permite controlar check-ins, check-outs, número de adultos e crianças por reserva, escolher acomodações conforme a necessidade do cliente e calcular diárias automaticamente. Nossa missão é transformar a experiência de hospedagem em algo simples, seguro e agradável, utilizando tecnologia de ponta para melhorar a gestão hoteleira e otimizar o atendimento ao cliente. A visão da Empresa Melozz é ser referência em soluções digitais para hotéis e pousadas, garantindo eficiência operacional e satisfação máxima dos hóspedes. Agradecemos a todos que confiam em nossos serviços e esperamos que este aplicativo torne a sua experiência ainda melhor!"
+                        FontSize="16"
+                           TextColor="#4B0082"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap"/>
+                </Frame>
+
+         
+                <Button Text="Voltar"
+                        Clicked="Voltar_Clicked"
+                        BackgroundColor="#8A2BE2"
+                        TextColor="White"
+                        CornerRadius="10"
+                        HorizontalOptions="Center"
+                        Margin="0,10,0,0"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
