@@ -16,7 +16,6 @@
                 <Image Source="logo.png"
                        HeightRequest="200"
                        WidthRequest="200"
-     
                        HorizontalOptions="Center"/>
                 
                 
@@ -54,6 +53,7 @@
                 <Button Text="Voltar"
                         Clicked="Voltar_Clicked"
                         BackgroundColor="#8A2BE2"
+                       
                         TextColor="White"
                         CornerRadius="10"
                         HorizontalOptions="Center"
