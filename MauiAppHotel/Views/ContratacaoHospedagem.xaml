@@ -4,7 +4,7 @@
              x:Class="MauiAppHotel.Views.ContratacaoHospedagem"
              Title="ContratacaoHospedagem"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="#8A2BE2">
+             BackgroundColor="#4B0082">
 
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10"
